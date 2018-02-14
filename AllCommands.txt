@@ -1,0 +1,20 @@
+
+git add .
+git rm --cached touch section3.txt
+git add .
+
+git commit -m "first commit"
+git remote add https://github.com/ahmyasser/sprint0Ahmedyasser.git
+git push -u origin master 
+
+git branch readme
+git checkout readme
+git touch ReadMe.md
+git add .
+git commit -m "sec commit"
+git status
+git checkout master
+git merge readme
+git push -u origin master
+
+
